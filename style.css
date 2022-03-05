@@ -12,6 +12,7 @@ body {
 }
 
 nav {
+    padding-bottom: 50px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -19,11 +20,13 @@ nav {
 
 nav p {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0px;
     display: flex;
     gap: 16px;
 }
@@ -32,4 +35,52 @@ nav ul a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.left-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-content p {
+    margin: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-content button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.image-placeholder {
+    background-color: grey;
+    height: 250px;
+    width: 1000px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
