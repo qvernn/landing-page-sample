@@ -124,3 +124,23 @@ nav ul a {
     font-size: 16px;
     color: lightslategray;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 310px;
+}
+
+.quote-words {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    margin-right: 45px;
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
