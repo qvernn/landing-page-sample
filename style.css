@@ -144,3 +144,34 @@ nav ul a {
     font-size: 24px;
     font-weight: bold;
 }
+
+.signup {
+    background-color: #3882f6;
+    margin: 100px 250px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-content {
+    color: #f9faf8;
+}
+
+.content-top {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-bottom {
+    font-size: 18px;
+}
+
+.signup button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    border: 1.75px solid white;
+    border-radius: 5px;
+    padding: 0px 40px;
+}
